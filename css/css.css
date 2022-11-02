@@ -3,6 +3,9 @@
 	display:flex;
 	flex-direction:column;
 	border:2px solid black;
+	margin:250px;
+	margin-top:5px;
+	margin-bottom:5px;
 }
 .main .header
 {
@@ -16,16 +19,18 @@
 	height:30px;
 	width:100px;
 	background-color:white;
-	margin:5px;
-	margin-left:600px;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
 }
 .main .header .text2
 {
 	height:20px;
 	width:50px;
 	background-color:gray;
-	margin:5px;
-	margin-left:620px;
+	margin:0 auto;
+	margin-top:5px;
+	margin-bottom:5px;
 }
 .main .body
 {
@@ -33,15 +38,16 @@
 	flex-direction:row;
 	flex-wrap:wrap;
 	background-color:white;
-	margin:30px;
-	
+	justify-content:center;	
 }
 .main .body .text
 {
-	height:150px;
-	width:300px;
+	height:100px;
+	width:200px;
 	background-color:gray;
-	margin:10px;
+	margin:0px auto;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 .main .footer
 {
